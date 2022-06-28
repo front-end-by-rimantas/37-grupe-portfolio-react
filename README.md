@@ -30,4 +30,12 @@ Design: https://react.theme-land.com/theme-five
 ## Authors
 
 Rimantas: [Github](https://github.com/belauzas)
+
 Darijush: [Github](https://github.com/Darijush)
+Creat2die: [Github](https://github.com/Creat2die)
+AndriusMart: [Github](https://github.com/AndriusMart)
+marinkus: [Github](https://github.com/marinkusi)
+arturasdanielius: [Github](https://github.com/arturasdanielius)
+FragVagis: [Github](https://github.com/FragVagis)
+Mantaskri : [Github](https://github.com/Mantaskri)
+
