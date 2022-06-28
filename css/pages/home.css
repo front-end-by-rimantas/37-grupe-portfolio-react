@@ -15,6 +15,28 @@
 /* header end */
 
 /* hero start */
+.hero {
+    background-color: aqua;
+}
+.hero-title {
+    color: #fff;
+    font-size: 36px;
+}
+.hero-description {
+    font-size: 16px;
+    color: #fff;
+}
+.hero-button {
+    color: #444444;
+    background-color: red;
+    padding: 10px 25px;
+    border-radius: 30px;
+    font-size: 20px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-top: 60px;
+}
 /* hero end */
 
 /* features start */
