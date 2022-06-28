@@ -30,4 +30,5 @@ Design: https://react.theme-land.com/theme-five
 ## Authors
 
 Rimantas: [Github](https://github.com/belauzas)
+Edvinas: [Github](https://github.com/marinkus)
 Darijush: [Github](https://github.com/Darijush)
