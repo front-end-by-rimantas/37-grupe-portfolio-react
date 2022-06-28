@@ -4,15 +4,15 @@
 ![Eco Status](https://img.shields.io/badge/ECO-Friendly-green.svg)
 [![Discord](https://discord.com/api/guilds/571393319201144843/widget.png)](https://discord.gg/dRwW4rw)
 
-# Daniels portfolio
+# React portfolio
 
 _37 group website project_
 
 This project is for educational porpuses only. Pull request are welcome, but priority for project authors! Thank you for your cooperation!
 
-Site published at: https://front-end-by-rimantas.github.io/37-grupe-portfolio/
+Site published at: https://front-end-by-rimantas.github.io/37-grupe-portfolio-react/
 
-Design: http://www.innovationplans.com/idesign/daniels/particles.html
+Design: https://react.theme-land.com/theme-five
 
 ## Project features
 
@@ -30,3 +30,4 @@ Design: http://www.innovationplans.com/idesign/daniels/particles.html
 ## Authors
 
 Rimantas: [Github](https://github.com/belauzas)
+Darijush: [Github](https://github.com/Darijush)
