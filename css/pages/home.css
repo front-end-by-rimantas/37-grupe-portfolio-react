@@ -7,6 +7,7 @@
 /* components */
 @import '../components/button.css';
 @import '../components/footer.css';
+@import '../components/form.css';
 @import '../components/header.css';
 
 /* CUSTOM STYLE */
@@ -38,6 +39,17 @@
     left: 0;
     opacity: 0.85;
     z-index: -1;
+}
+.bg-img::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 170px;
+    background: url(../../img/wave3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .container > .hero {
     display: flex;
@@ -96,14 +108,6 @@
 .container > .hero > .contact-box > .description {
     font-size: 20px;
     color: #4444447e;
-}
-.container > .hero > .contact-box > .input-field {
-    width: 100%;
-    height: 50px;
-    margin-top: 20px;
-    padding: 0 10px;
-    border: 0px;
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.10);
 }
 .container > .hero > .contact-box > .input-field::placeholder {
     font-size: 16px;
