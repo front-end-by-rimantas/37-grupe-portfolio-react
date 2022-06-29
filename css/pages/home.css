@@ -16,7 +16,7 @@
 
 /* hero start */
 .container > .hero {
-    background-color: aqua;
+    background-color: #7c4fe0;
     display: flex;
     align-items: center;
     align-content: center;
@@ -31,12 +31,13 @@
     }
 }
 .container > .hero > .intro {
+    padding: 0 40px;
 }
 .container > .hero > .intro > .title {
     color: #fff;
-    font-size: 52px;
+    font-size: 56px;
     font-weight: 800;
-    line-height: 1;
+    line-height: 1.1;
     margin-bottom: 30px;
     text-align: left;
 }
@@ -58,7 +59,7 @@
     text-transform: uppercase;
 }
 .container > .hero > .contact-box {
-    padding: 30px 20px;
+    padding: 30px 40px;
     display: block;
     justify-content: center;
     background-color: #fff;
@@ -67,32 +68,34 @@
 }
 .container > .hero > .contact-box > .title {
     font-size: 36px;
-    margin: 30px 0;
+    margin: 0 0 30px 0;
 }
 .container > .hero > .contact-box > .description {
     font-size: 20px;
-    color: #444;
-    margin-bottom: 30px;
+    color: #4444447e;
 }
 .container > .hero > .contact-box > .input-field {
     width: 100%;
     height: 50px;
-    margin-top: 10px;
+    margin-top: 20px;
     padding: 0 10px;
     border: 0px;
-    box-shadow: 0 5px 10px rgb(0 0 0 / 10%);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.10);
 }
 .container > .hero > .contact-box > .input-field::placeholder {
     font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .container > .hero > .contact-box > .button {
     width: 100%;
     height: 50px;
-    margin: 30px 0;
+    margin: 20px 0 10px 0;
     border-radius: 5px;
     border: 0;
+    color: #fff;
     background-color: #7c4fe0;
-    font-size: 20px;
+    font-size: 14px;
+    font-weight: 500;
     letter-spacing: 1px;
     display: inline-block;
     white-space: nowrap;
