@@ -15,25 +15,33 @@
 /* header end */
 
 /* hero start */
-.hero {
+.container > .hero {
     background-color: aqua;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
 }
-.container > .hero > div > .title {
+.container > .hero > .intro {
+}
+.container > .hero > .intro > .title {
     color: #fff;
     font-size: 52px;
     font-weight: 800;
     line-height: 1;
     margin-bottom: 30px;
+    text-align: left;
 }
-.container > .hero > div > .description {
+.container > .hero > .intro > .description {
     font-size: 16px;
     color: #fff;
     margin-bottom: 30px;
+    text-align: left;
 }
-.container > .hero > div > .button {
+.container > .hero > .intro > .button {
     color: #444444;
-    background-color: red;
-    padding: 10px 25px;
+    background-color: white;
+    padding: 15px 30px;
     border-radius: 30px;
     font-size: 20px;
     letter-spacing: 1px;
