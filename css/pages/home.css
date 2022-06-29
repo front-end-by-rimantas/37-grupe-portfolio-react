@@ -109,10 +109,6 @@
     font-size: 20px;
     color: #4444447e;
 }
-.container > .hero > .contact-box > .input-field::placeholder {
-    font-size: 16px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
 .container > .hero > .contact-box > .btn {
     padding: 0;
     width: 100%;
