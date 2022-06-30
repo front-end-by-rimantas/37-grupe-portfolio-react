@@ -3,7 +3,7 @@
 @import '../base/layout.css';
 
 /* 3rd-party */
-
+@import '../3rd-party/font-awesome.min.css';
 /* components */
 @import '../components/button.css';
 @import '../components/footer.css';
@@ -265,6 +265,45 @@
 /* features end */
 
 /* sApp start */
+.pr-bg {
+    background-color:#F6F9FE;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 300;
+
+}
+.rt-img {
+    float: right;
+    width: 60%;
+    margin:0 10px;
+    object-fit: contain;
+    object-position: center;
+}
+ul {
+    list-style: none;
+}
+ul li:before {
+    content:'\2714\0020';
+    color:#764FE0; 
+}
+.box {
+    padding: 10px 0;
+}
+.h2 {
+    font-size: 30px;
+}
+.txt-box {
+    font-size: 0.8em;
+}
+.ckmark {
+    line-height: 25px;
+}
+.icon {
+    color: #764FE0;
+    border: 1px solid lightgrey;
+    border-radius: 10%;
+    background-color: #fff;
+    padding: 10px;
+}
 /* sApp end */
 
 /* Device start */
