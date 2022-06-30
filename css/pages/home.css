@@ -26,14 +26,12 @@
     align-items: center;
     justify-content: space-between;
     padding: 18px;
- /* background-color: blue; */
+    background-color: blue;
 }
 .burger{
-    user-select: none;
     display: none;
-}
-.navmenu input[type=checkbox]{
-    display: none;
+    border: none;
+    background-color: transparent;
 }
 .droplist{
     position: relative;
@@ -75,6 +73,8 @@
 .droplist:hover .dropdown {
     display: block;
 }
+/* sliding menu */
+
 /* header end */
 
 /* hero start */
@@ -125,7 +125,7 @@
             position: absolute;
             background-color:blue;
             right: 0;
-            left: 0;
+            /* left: 0; */
             text-align: center;
             padding: 16px 0;
        }
@@ -135,9 +135,6 @@
        }
        .menu li + li {
             margin-top: 12px;
-       }
-       input[type=checkbox]:checked ~ .menu{
-            display: block;
        }
        .burger {
             display: block;
