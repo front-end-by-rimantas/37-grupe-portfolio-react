@@ -279,10 +279,10 @@
     object-fit: contain;
     object-position: center;
 }
-ul {
+.sApp-ul  {
     list-style: none;
 }
-ul li:before {
+.sApp-ul > li:before {
     content:'\2714\0020';
     color:#764FE0; 
 }
