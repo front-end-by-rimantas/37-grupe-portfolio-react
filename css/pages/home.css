@@ -73,7 +73,42 @@
 .droplist:hover .dropdown {
     display: block;
 }
-/* sliding menu */
+
+@media (max-width: 786px){
+    .menu { 
+            display:none;
+            position: absolute;
+            background-color:blue;
+            right: 0;
+            /* left: 0; */
+            text-align: center;
+            padding: 16px 0;
+       }
+       .menu li:hover {
+            display: inline-block;
+            transition: 0.4s ease;
+       }
+       .menu li + li {
+            margin-top: 12px;
+       }
+       .burger {
+            display: block;
+            color: #fff;
+            font-size: 40px;
+       }
+       .burger:hover{
+        color: grey;
+        cursor: pointer;
+       }
+       .dropdown {
+            left: 10%;
+            top: 5px;
+            transform: translateX(35%);
+       }
+       .dropdown li:hover {
+            background-color: blue;
+       }
+}
 
 /* header end */
 
@@ -118,39 +153,3 @@
 
 /* Footer start */
 /* Footer end */
-
-@media (max-width: 786px){
-    .menu { 
-            display:none;
-            position: absolute;
-            background-color:blue;
-            right: 0;
-            /* left: 0; */
-            text-align: center;
-            padding: 16px 0;
-       }
-       .menu li:hover {
-            display: inline-block;
-            transition: 0.4s ease;
-       }
-       .menu li + li {
-            margin-top: 12px;
-       }
-       .burger {
-            display: block;
-            color: #fff;
-            font-size: 40px;
-       }
-       .burger:hover{
-        color: grey;
-        cursor: pointer;
-       }
-       .dropdown {
-            left: 10%;
-            top: 5px;
-            transform: translateX(35%);
-       }
-       .dropdown li:hover {
-            background-color: blue;
-       }
-}
