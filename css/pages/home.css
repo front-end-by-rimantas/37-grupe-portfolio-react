@@ -311,6 +311,18 @@ ul li:before {
 /* Device end */
 
 /* how sApp works start */
+.container.purple {
+    background-color: #5F35DE;
+}
+.container.purple > .row > .heading > .title {
+    color: #fff;
+    font-size: 30px;
+}
+.container.purple > .row > .heading > .description {
+    color: #fff;
+    font-size: 18px;
+}
+
 /* how sApp works end */
 
 /* interface start */
