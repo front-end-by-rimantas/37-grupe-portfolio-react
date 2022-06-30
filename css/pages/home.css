@@ -7,6 +7,7 @@
 /* components */
 @import '../components/button.css';
 @import '../components/footer.css';
+@import '../components/form.css';
 @import '../components/header.css';
 
 /* CUSTOM STYLE */
@@ -15,6 +16,127 @@
 /* header end */
 
 /* hero start */
+
+.bg-img {
+    background-image: url(../../img/blog-4.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    background: rgba(rgb(176, 43, 209, 0.3), green, blue, alpha);
+}
+.overlay {
+    position: relative;
+    z-index: 0;
+}
+.overlay::after {
+    content: '';
+    background-color: #5F35DE;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0.85;
+    z-index: -1;
+}
+.bg-img::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 132px;
+    background: url(../../img/wave1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.container > .hero {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+.container > .hero > .intro {
+    padding: 0 40px;
+}
+.container > .hero > .intro > .title {
+    color: #fff;
+    font-size: 56px;
+    font-weight: 800;
+    line-height: 1.1;
+    margin-bottom: 30px;
+    text-align: left;
+}
+.container > .hero > .intro > .description {
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 30px;
+    text-align: left;
+}
+.container > .hero > .intro > .button {
+    color: #444444;
+    background-color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 30px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 0.9s;
+}
+.container > .hero > .intro > .button:hover {
+    /* background-color: #5F35DE; */
+    background-image: linear-gradient(to right,#5F35DE, #911491);
+}
+.container > .hero > .contact-box {
+    padding: 30px 40px;
+    display: block;
+    justify-content: center;
+    background-color: #fff;
+    text-align: center;
+    border-radius: 5px;
+}
+.container > .hero > .contact-box > .title {
+    font-size: 36px;
+    margin: 0 0 30px 0;
+}
+.container > .hero > .contact-box > .description {
+    font-size: 20px;
+    color: #4444447e;
+}
+.container > .hero > .contact-box > .btn {
+    padding: 0;
+    width: 100%;
+    height: 50px;
+    margin: 20px 0 10px 0;
+}
+.container > .hero > .contact-box > .conditions-text {
+    color: #444444;
+    font-size: 16px;
+}
+.container > .hero > .contact-box .terms {
+    color: black;
+    font-size: 16px;
+}
+
+@media (max-width: 768px) {
+    .container > .hero {
+        display: inline-block;
+    }
+    .container > .hero > .intro {
+        margin-bottom: 30px;
+    }
+}
+@media (max-width: 768px) {
+    .container > .hero > .contact-box {
+        margin: 20px;
+    }
+    .bg-img::before {
+        height: 50px;
+}
+
 /* hero end */
 
 /* features start */
