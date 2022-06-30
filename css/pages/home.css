@@ -238,6 +238,30 @@
 /* hero end */
 
 /* features start */
+    .header3 { 
+    text-align: center;
+}
+
+    .futures{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 40px 20px;
+        box-shadow: 0 4px  8px #0003;
+        background-color: white;
+}
+    .futures > .fa{
+        text-align: center;
+    }
+    .futures > .title{
+        font-size: 20px;
+    }
+    .futures > .description{
+        font-size: 18px;
+    }
+
+
 /* features end */
 
 /* sApp start */
