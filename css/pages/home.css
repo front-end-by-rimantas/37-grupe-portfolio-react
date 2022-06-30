@@ -314,13 +314,21 @@ ul li:before {
 .container.purple {
     background-color: #5F35DE;
 }
+.container.purple > .row {
+    display: flex;
+    justify-content: center;
+}
+/* .container.purple > .row > .heading {
+} */
 .container.purple > .row > .heading > .title {
     color: #fff;
     font-size: 30px;
+    text-align: center;
 }
 .container.purple > .row > .heading > .description {
     color: #fff;
     font-size: 18px;
+    text-align: center;
 }
 
 /* how sApp works end */
