@@ -15,14 +15,21 @@
 /* header start */
 .head{
     padding: 0;
-    height: 150px;
-    background-color: transparent;
-    position: absolute; 
+    height: 100px;
     width: 100%; 
     top: 0;
     left: 0;
-    background-color: transparent;
     z-index: 2; 
+}
+.head-fixed{
+    position: absolute;
+    background-color: transparent; 
+}
+.head-sticky{
+    position: fixed; 
+    background-color: white;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.10);
+    transition: 0.3s;
 }
 .head-row{
     display: flex;
@@ -59,9 +66,13 @@
     top: 30px;
     left: -5px;
 }
-.navmenu a{
+.navmenu .mainlinks{
     text-decoration: none;
     color: #fff;
+}
+.mainlinks-black{
+    text-decoration: none;
+    color: #000;
 }
 .navmenu li{
     list-style: none;
@@ -74,7 +85,7 @@
     padding: 0.5em 1em;
     width: 12em;
 }
-.dropdown a{
+.dropdown .links-inside{
     color: black;
     text-transform: uppercase;
     font-weight: bold;

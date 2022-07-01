@@ -11,10 +11,10 @@
 
 <body>
 <!-- header start -->
-<header class="container head">
+<header class="container head head-fixed" id="header">
     <div class="row head-row">
-        <div class="col-12 col-lg-10 navmenu">
-            <img src="./img/header-logo-white.png" alt="Home">
+        <div class="col-12 col-lg-10 navmenu" id="headcol">
+            <img src="./img/header-logo-white.png" alt="Home" id="logo">
         
             <ul >
 
@@ -22,32 +22,32 @@
 
             <nav class="menu">
                     <li class="droplist">
-                        <a href="#">Home</a>
+                        <a class="mainlinks" id="main-menu" href="#">Home</a>
                         <ul class="dropdown">
-                            <li><a href="#">Homepage-1</a></li>
-                            <li><a href="#">Homepage-2</a></li>
-                            <li><a href="#">Homepage-3</a></li>
-                            <li><a href="#">Homepage-4</a></li>
-                            <li><a href="#">Homepage-5</a></li>
-                            <li><a href="#">Homepage-6</a></li>
+                            <li><a class="links-inside" href="#">Homepage-1</a></li>
+                            <li><a class="links-inside" href="#">Homepage-2</a></li>
+                            <li><a class="links-inside" href="#">Homepage-3</a></li>
+                            <li><a class="links-inside" href="#">Homepage-4</a></li>
+                            <li><a class="links-inside" href="#">Homepage-5</a></li>
+                            <li><a class="links-inside" href="#">Homepage-6</a></li>
                         </ul>
                     </li>
-                    <li><a href="#">Features</a></li>
+                    <li><a class="mainlinks" id="main-menu" href="#">Features</a></li>
                     <li class="droplist">
-                        <a href="#">Pages</a>
+                        <a class="mainlinks" id="main-menu" href="#">Pages</a>
                         <ul class="dropdown">
-                            <li><a href="#">Inner pages</a></li>
-                            <li><a href="#">Blog pages</a></li>
-                            <li><a href="#">Blog detail</a></li>
-                            <li><a href="#">Accounts</a></li>
-                            <li><a href="#">Reviews</a></li>
-                            <li><a href="#">FAQ</a></li>
-                            <li><a href="#">Contact</a></li>
+                            <li><a class="links-inside" href="#">Inner pages</a></li>
+                            <li><a class="links-inside" href="#">Blog pages</a></li>
+                            <li><a class="links-inside" href="#">Blog detail</a></li>
+                            <li><a class="links-inside" href="#">Accounts</a></li>
+                            <li><a class="links-inside" href="#">Reviews</a></li>
+                            <li><a class="links-inside" href="#">FAQ</a></li>
+                            <li><a class="links-inside" href="#">Contact</a></li>
                         </ul>
                     </li>
-                    <li><a href="#">Screenshots</a></li>
-                    <li><a href="#">Pricing</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a class="mainlinks" id="main-menu" href="#">Screenshots</a></li>
+                    <li><a class="mainlinks" id="main-menu" href="#">Pricing</a></li>
+                    <li><a class="mainlinks" id="main-menu" href="#">Contact</a></li>
             </nav>
         </ul>
         </div>
@@ -193,6 +193,7 @@
 
 
 <!-- header start -->
+<script src="./js/components/header.js" type="module" defer></script>
 <!-- header end -->
 
 <!-- hero start -->
