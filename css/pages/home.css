@@ -314,11 +314,6 @@
     font-weight: 300;
 
 }
-.mobile2-img {
-    float:right;
-    width: 50%;
-    object-position: center;
-}
 .box-h2 {
     padding: 20px 0;
     font-size: 40px;
@@ -346,6 +341,12 @@
     margin-top: 24px;
     font-size: 15px;
     padding: 18px 30px;
+}
+
+.mobile2-img {
+    float:right;
+    width: 50%;
+    object-position: center;
 }
 
 /* Device end */
