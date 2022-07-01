@@ -348,10 +348,101 @@
     width: 50%;
     object-position: center;
 }
-
 /* Device end */
 
 /* how sApp works start */
+.container.purple {
+    background-color: #5F35DE;
+}
+.container.purple > .row {
+    display: flex;
+    justify-content: center;
+}
+/* .container.purple > .row > .heading {
+} */
+.container.purple > .row > .heading > .title,
+.container.purple > .row > .block > .title {
+    color: #fff;
+    font-size: 40px;
+    text-align: center;
+}
+.container.purple > .row > .block > .title {
+    font-size: 30px;
+}
+.container.purple > .row > .heading > .description,
+.container.purple > .row > .block > .description {
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+}
+.container.purple > .row > .block {
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.container.purple > .row > .block::after {
+    content: '>';
+    font-size: 50px;
+    font-weight: 900;
+    color: #fff;
+    position: absolute;
+    left: 110%;
+}
+
+/* Animation (2 hours spent on my own, with a little Google help - 2 minutes) */
+.container.purple > .row > .block:hover:after {
+    animation: shake 2s ease 0s 1 normal forwards;
+}
+
+@keyframes shake {
+	0%,
+	100% {
+		transform: translateX(0);
+	}
+
+	10%,
+	30%,
+	50%,
+	70% {
+		transform: translateX(-10px);
+	}
+
+	20%,
+	40%,
+	60% {
+		transform: translateX(10px);
+	}
+
+	80% {
+		transform: translateX(8px);
+	}
+
+	90% {
+		transform: translateX(-8px);
+	}
+}
+.container.purple > .row > .block:last-child:after {
+    display: none;
+}
+.container.purple > .row > .block > .avatar {
+    width: 4rem;
+    height: 4rem;
+}
+.container.purple > .row > .block > .title {
+    font-size: 20px;
+}
+
+@media (max-width: 768px) {
+    .container.purple > .row {
+        display: block;
+    }
+    .container.purple > .row > .block::after {
+        display: none;
+    }
+}
 /* how sApp works end */
 
 /* interface start */
