@@ -323,8 +323,11 @@ ul li:before {
 .container.purple > .row > .heading > .title,
 .container.purple > .row > .block > .title {
     color: #fff;
-    font-size: 30px;
+    font-size: 40px;
     text-align: center;
+}
+.container.purple > .row > .block > .title {
+    font-size: 30px;
 }
 .container.purple > .row > .heading > .description,
 .container.purple > .row > .block > .description {
@@ -348,6 +351,8 @@ ul li:before {
     position: absolute;
     left: 110%;
 }
+
+/* Animation (2 hours spent on my own, with a little Google help - 2 minutes) */
 .container.purple > .row > .block:hover:after {
     animation: shake 2s ease 0s 1 normal forwards;
 }
