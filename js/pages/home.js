@@ -14,6 +14,10 @@
 /* Device end */
 
 /* how sApp works start */
+import { workData } from '../data/workData.js';
+import { work } from '../components/work.js';
+
+work(workData);
 /* how sApp works end */
 
 /* interface start */

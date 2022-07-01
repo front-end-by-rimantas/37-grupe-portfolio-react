@@ -320,17 +320,50 @@ ul li:before {
 }
 /* .container.purple > .row > .heading {
 } */
-.container.purple > .row > .heading > .title {
+.container.purple > .row > .heading > .title,
+.container.purple > .row > .block > .title {
     color: #fff;
     font-size: 30px;
     text-align: center;
 }
-.container.purple > .row > .heading > .description {
+.container.purple > .row > .heading > .description,
+.container.purple > .row > .block > .description {
     color: #fff;
-    font-size: 18px;
+    font-size: 16px;
     text-align: center;
 }
+.container.purple > .row > .block {
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.container.purple > .row > .block::after {
+    content: '>';
+    font-size: 50px;
+    font-weight: 900;
+    color: #fff;
+    position: absolute;
+    left: 110%;
+}
+.container.purple > .row > .block:last-child:after {
+    display: none;
+}
+.container.purple > .row > .block > .avatar {
+    width: 4rem;
+    height: 4rem;
+}
+.container.purple > .row > .block > .title {
+    font-size: 20px;
+}
 
+@media (max-width: 768px) {
+    .container.purple > .row {
+        display: block;
+    }
+}
 /* how sApp works end */
 
 /* interface start */
