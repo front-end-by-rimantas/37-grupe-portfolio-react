@@ -5,6 +5,10 @@
 /* hero end */
 
 /* features start */
+import { features } from '../components/features.js';
+import {featuresData} from '../data/featuresData.js';
+
+features('#features_block', featuresData);
 /* features end */
 
 /* sApp start */
