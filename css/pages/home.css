@@ -63,13 +63,17 @@
 .burgerCheck{
     display: none;
 }
-.crossCheck{
-    display: none;
-}
-cross
 .hamburger {
     display: none;
     font-size: 24px;
+    user-select: none;
+   }
+.crossCheck{
+    display: none;
+}
+.cross{
+    display: none;
+    font-size: 16px;
     user-select: none;
    }
 .droplist{
@@ -135,17 +139,28 @@ cross
        .burgerCheck:checked ~ .menu{
         display: block;
        }
-       .crossCheck:checked ~ .menu{
-        display: none;
-       }
        .burgerCheck:checked ~ .bg {
         visibility: visible;
         opacity: 0.8;
+        transition: all 0.3s;
       }
+      .crossCheck:checked ~ .menu{
+        display: none;
+       }
+       .crossCheck:checked ~ .bg{
+        display: none;
+       }
        .hamburger {
         display: block;
         color: #fff;
         font-size: 30px;
+       }
+       .cross {
+        display: block;
+        color: #000;
+        font-size: 18px;
+        text-align: right;
+        padding: 0 10px 0 0;
        }
        .navmenu .mainlinks{
         color: #000;
