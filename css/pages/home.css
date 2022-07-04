@@ -346,7 +346,7 @@
 }
 
 .mobile2-img {
-    width: 50%;
+    width: 40%;
     object-position: center;
 }
 
@@ -359,9 +359,11 @@
 @media (max-width: 1399px) {
     .mobile2-img {
         float: right;
-        width: 70%;
+        width: 55%;
     }
-
+    .box-h2 {
+        font-size: 30px;
+    }
 }
 
 @media (max-width: 1000px) {
