@@ -118,10 +118,10 @@
         width: 40%;
         height: 100vh;
         background-color:#fff;
-        top: 70px;
+        top: 0;
         right: 0;
         text-align: left;
-        padding: 20px;
+        padding: 40px;
        }
        .menu > li {
         padding: 20px;
@@ -138,7 +138,7 @@
        }
        .burgerCheck:checked ~ .bg {
         visibility: visible;
-        opacity: 0.8;
+        opacity: 0.7;
         transition: all 0.3s;
       }
       .hamburger{
@@ -172,25 +172,26 @@
     .hamb-line::after{
         top: -10px;
     }
-    .burgerCheck:checked ~ .hamb .hamb-line {
+    .burgerCheck:checked ~ .hamburger .hamb-line {
         background: transparent;
+        width: 15px;
     }
-    .burgerCheck:checked ~ .hamb .hamb-line::before {
+    .burgerCheck:checked ~ .hamburger .hamb-line::before {
         transform: rotate(-45deg);
-        top: 10px;
+        top: -30px;
         right: 10px;
-        background: #000;
+        background: gray;
         z-index: 54;
     }
-    .burgerCheck:checked ~ .hamb .hamb-line::after {
+    .burgerCheck:checked ~ .hamburger .hamb-line::after {
         transform: rotate(45deg);
-        top: 10px;
+        top: -30px;
         right: 10px;
-        background: #000;
+        background: gray;
         z-index: 55;
     }
        .navmenu .mainlinks{
-        color: #000;       
+        color: gray;       
     }
        .dropdown {
         right: 100%;
