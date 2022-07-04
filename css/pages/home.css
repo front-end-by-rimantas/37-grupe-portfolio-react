@@ -183,6 +183,7 @@
     text-decoration: none;
     text-transform: uppercase;
     transition: 0.9s;
+    display: inline-block;
 }
 .container > .hero > .intro > .button:hover {
     /* background-color: #5F35DE; */
@@ -456,8 +457,6 @@
     display: flex;
     justify-content: center;
 }
-/* .container.purple > .row > .heading {
-} */
 .container.purple > .row > .heading > .title,
 .container.purple > .row > .block > .title {
     color: #fff;

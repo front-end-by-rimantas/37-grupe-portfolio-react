@@ -24,7 +24,6 @@
 .container > .row {
     float: left;
     width: 100%;
-    margin: 15px 0;
 }
 
 .container > .row > [class*='col-'] {

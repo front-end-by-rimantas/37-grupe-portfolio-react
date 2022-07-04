@@ -10,7 +10,7 @@ function work(data) {
     let HTML = '';
 
     for (const item of data) {
-        HTML += `<div class="block col-12 col-md-3 ml-sm-1">
+        HTML += `<div class="block col-12 col-md-3">
         <img src="./img/work_thumb_${item.icon}.png" class="avatar">
         <h4 class="title">${item.title}</h4>
         <p class="description">${item.description}</p>
