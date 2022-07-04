@@ -183,6 +183,7 @@
     text-decoration: none;
     text-transform: uppercase;
     transition: 0.9s;
+    display: inline-block;
 }
 .container > .hero > .intro > .button:hover {
     /* background-color: #5F35DE; */
