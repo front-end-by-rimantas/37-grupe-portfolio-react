@@ -319,8 +319,6 @@
     display: flex;
     justify-content: center;
 }
-/* .container.purple > .row > .heading {
-} */
 .container.purple > .row > .heading > .title,
 .container.purple > .row > .block > .title {
     color: #fff;
