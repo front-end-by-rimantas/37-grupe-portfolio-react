@@ -241,7 +241,12 @@
 /* features start */
     .header3 { 
     text-align: center;
-}
+    }
+
+    .featureimage{
+        width: 50px;
+        height: auto;
+    }
 
     .futures{
         display: flex;

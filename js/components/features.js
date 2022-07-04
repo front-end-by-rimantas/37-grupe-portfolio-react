@@ -6,10 +6,12 @@ function features(selector, data){
     }
 
     //logika
+    
     const DOM = document.querySelector(selector);
     if (!DOM){
         return console.error('Nerastas elementas i kuri reikia sugeneruoti nauja turini');
     }
+    console.log(DOM);
 
     let HTML = '';
 
@@ -21,7 +23,7 @@ function features(selector, data){
 
         console.log(item);
         HTML += `<div class="col-12 col-md-6 col-lg-4 futures">
-                <i class="icon fa fa-${item.icon}"></i>
+                <img class="featureimage" src="./img/${item.icon}" alt="image">
                 <h3 class="title">${item.title}</h3>
                 <p class="description">${item.description}</p>
                 </div>`;
@@ -53,8 +55,8 @@ function isValidFeatureItem(data) {
         || data === null
         || Array.isArray(data)
         || typeof data.icon !== 'string'
-        || !data.icon
-        || data.icon.length > 15
+        || !data.icon  
+        || data.icon.length > 30
         || typeof data.title !== 'string'
         || !data.title
         || data.title.length > 20
