@@ -15,16 +15,12 @@
     <div class="row head-row">
         <div class="col-12 col-lg-10 navmenu" id="headcol">
             <img src="./img/header-logo-white.png" alt="Home" id="logo">
-            <div id="nav-container">
-                <div class="bg"></div>
-                <div class="navbutton" tabindex="0">
-                  <span class="icon-bar"></span>
-                  <span class="icon-bar"></span>
-                  <span class="icon-bar"></span>
-                </div>
-            <nav class="menu">
+            <ul class="nav-links">
+                <input type="checkbox" id="checkbox_toggle" class="burgerCheck"/>
+                <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+                <div class="menu">
                     <li class="droplist">
-                        <a class="mainlinks" id="main-menu" href="#">Home</a>
+                        <a class="mainlinks" href="#">Home</a>
                         <ul class="dropdown">
                             <li><a class="links-inside" href="#">Homepage-1</a></li>
                             <li><a class="links-inside" href="#">Homepage-2</a></li>
@@ -34,9 +30,9 @@
                             <li><a class="links-inside" href="#">Homepage-6</a></li>
                         </ul>
                     </li>
-                    <li><a class="mainlinks" id="main-menu" href="#">Features</a></li>
+                    <li><a class="mainlinks" href="#">Features</a></li>
                     <li class="droplist">
-                        <a class="mainlinks" id="main-menu" href="#">Pages</a>
+                        <a class="mainlinks" href="#">Pages</a>
                         <ul class="dropdown">
                             <li><a class="links-inside" href="#">Inner pages</a></li>
                             <li><a class="links-inside" href="#">Blog pages</a></li>
@@ -47,10 +43,11 @@
                             <li><a class="links-inside" href="#">Contact</a></li>
                         </ul>
                     </li>
-                    <li><a class="mainlinks" id="main-menu" href="#">Screenshots</a></li>
-                    <li><a class="mainlinks" id="main-menu" href="#">Pricing</a></li>
-                    <li><a class="mainlinks" id="main-menu" href="#">Contact</a></li>
-            </nav>
+                    <li><a class="mainlinks" href="#">Screenshots</a></li>
+                    <li><a class="mainlinks" href="#">Pricing</a></li>
+                    <li><a class="mainlinks" href="#">Contact</a></li>
+                </div>
+            </ul>
         
         </div>
     </div>
