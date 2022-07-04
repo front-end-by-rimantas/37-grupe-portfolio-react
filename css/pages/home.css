@@ -239,6 +239,19 @@
 /* hero end */
 
 /* features start */
+    .btn-imitation{
+        
+    }
+    .btn-imitation::before{
+        content: "";
+        display: block;
+        background: url("icon.jpg") no-repeat;
+        width: 20px;
+        height: 10px;
+        float: left;
+        margin: 0 6px 0 0;
+    }
+
     .header3 { 
     text-align: center;
     }
@@ -248,6 +261,27 @@
         height: auto;
     }
 
+    .features-header{
+        font-size: 40px;
+        font-family: poppins;
+        font-weight: 600;
+    }
+
+    .features-paragraph{
+        font-size: 14px;
+        font-family: poppins;
+        color: grey;
+    }
+
+    .divader{
+        margin: 10px 0;
+        width: 70px;
+        height: 2px;
+        border: none;
+        background-color: #7c4fe0;
+        
+
+    }
     .futures{
         display: flex;
         flex-direction: column;
@@ -255,19 +289,31 @@
         text-align: center;
         gap: 20px;
         padding: 40px 20px;
-        box-shadow: 0 4px  8px #0003;
+        box-shadow: 0px 0px 15px 0 #0002;
         background-color: white;
+        border-radius: 25px;
+        position: relative;
+        top: 0;
+        transition: top ease 0.45s;
 }
     .futures > .fa{
         text-align: center;
     }
     .futures > .title{
         font-size: 20px;
+        font-family: poppins;
+
     }
     .futures > .description{
-        font-size: 18px;
+        font-size: 14px;
+        font-family: poppins;
+        margin: 0 10px;
     }
 
+    .futures:hover{
+        top: -10px;
+        box-shadow: 0px 0px 30px 0 #0002;
+    }
 
 /* features end */
 
