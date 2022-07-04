@@ -341,7 +341,7 @@
     .btn-imitation{
         display: inline-block;
         font-size: 14px;
-        font-family: poppins;
+        font-family: Poppins-Regular;
         font-weight: 500;
     }
 
@@ -357,13 +357,13 @@
 
     .features-header{
         font-size: 40px;
-        font-family: poppins;
+        font-family: Poppins-Bold;
         font-weight: 600;
     }
 
     .features-paragraph{
         font-size: 14px;
-        font-family: poppins;
+        font-family: Poppins-Regular;
         color: grey;
     }
 
@@ -395,12 +395,12 @@
     }
     .futures > .title{
         font-size: 20px;
-        font-family: poppins;
+        font-family: Poppins-Regular;
 
     }
     .futures > .description{
         font-size: 14px;
-        font-family: poppins;
+        font-family: Poppins-Regular;
         margin: 0 10px;
     }
 
