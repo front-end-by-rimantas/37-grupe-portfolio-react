@@ -412,24 +412,71 @@
 /* Testimonials end */
 
 /* purchase plans start */
-.title-center{
+.prices-section{
+    font-family: 'Poppins', sans-serif;
     text-align: center;
-    align-items: center;
+    background-color: #f6f9fe;
 }
+.price-title{
+    font-size: 40px;
+}
+.price-description{
+    width: 70%;
+    margin: auto;
+}
+.price-title-line {
+    border: 2px #764FE0 solid;
+    width: 80px;
+    background-color: #764FE0;
+    margin: 10px auto;
+    border-radius: 20px;
+}
+
 .price-background{
-    background-color: gainsboro;
+    background-color: white;
     border-radius: 5px;
     padding: 20px;
     text-align: center;
+    position: relative;
+    margin: 50px 20px;
+    box-shadow: 0 4px  8px #0003;
+
+}
+.price-background > .packType{
+    letter-spacing: 3px;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0;
+
+}
+.price-background > .packPrice{
+    font-size: 50px;
+    margin-bottom: 10px;
 }
 .price-background > .list{
  list-style: none;
-
-
 }
 .price-background > .list > .element{
-    border-bottom: #444444 solid 1px;
+    border-top: gray solid 1px;
     padding: 20px 0;
+    color: #565656;
+    font-size: 14px;
+    line-height: 24px;
+    margin: 0 50px;
+}
+.price-background > .btn{
+    width: 150px;
+    height: 50px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.price-background > .price-img{
+    width: 150px;
+
+}
+.pricesFooter{
+    color: black;
 }
 
 /* purchase plans end */
