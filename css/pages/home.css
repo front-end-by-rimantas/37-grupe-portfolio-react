@@ -412,6 +412,26 @@
 /* Testimonials end */
 
 /* purchase plans start */
+.title-center{
+    text-align: center;
+    align-items: center;
+}
+.price-background{
+    background-color: gainsboro;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+}
+.price-background > .list{
+ list-style: none;
+
+
+}
+.price-background > .list > .element{
+    border-bottom: #444444 solid 1px;
+    padding: 20px 0;
+}
+
 /* purchase plans end */
 
 /* FAQ start */
