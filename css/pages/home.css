@@ -63,17 +63,10 @@
 .burgerCheck{
     display: none;
 }
+
 .hamburger {
     display: none;
     font-size: 24px;
-    user-select: none;
-   }
-.crossCheck{
-    display: none;
-}
-.cross{
-    display: none;
-    font-size: 16px;
     user-select: none;
    }
 .droplist{
@@ -125,13 +118,17 @@
         width: 40%;
         height: 100vh;
         background-color:#fff;
-        top: 30px;
+        top: 70px;
         right: 0;
-        text-align: center;
-        padding: 20px 0;
+        text-align: left;
+        padding: 20px;
+       }
+       .menu > li {
+        padding: 20px;
+        border-bottom: 2px solid lightgray;
        }
        .menu > .droplist:hover {
-        display: inline-block;
+        display: block;
        }
        .menu > .droplist > li {
         margin-top: 12px;
@@ -144,26 +141,56 @@
         opacity: 0.8;
         transition: all 0.3s;
       }
-      .crossCheck:checked ~ .menu{
-        display: none;
-       }
-       .crossCheck:checked ~ .bg{
-        display: none;
-       }
-       .hamburger {
+      .hamburger{
+        cursor: pointer;
+        padding: 40px 20px;
         display: block;
-        color: #fff;
-        font-size: 30px;
-       }
-       .cross {
+    }
+    
+    .hamb-line {
+        background: #fff;
         display: block;
-        color: #000;
-        font-size: 18px;
-        text-align: right;
-        padding: 0 10px 0 0;
-       }
+        height: 2px;
+        position: relative;
+        width: 30px;
+    
+    } 
+    
+    .hamb-line::before,
+    .hamb-line::after{
+        background: #fff;
+        content: '';
+        display: block;
+        height: 100%;
+        position: absolute;
+        transition: all .2s ease-out;
+        width: 100%;
+    }
+    .hamb-line::before{
+        top: 10px;
+    }
+    .hamb-line::after{
+        top: -10px;
+    }
+    .burgerCheck:checked ~ .hamb .hamb-line {
+        background: transparent;
+    }
+    .burgerCheck:checked ~ .hamb .hamb-line::before {
+        transform: rotate(-45deg);
+        top: 10px;
+        right: 10px;
+        background: #000;
+        z-index: 54;
+    }
+    .burgerCheck:checked ~ .hamb .hamb-line::after {
+        transform: rotate(45deg);
+        top: 10px;
+        right: 10px;
+        background: #000;
+        z-index: 55;
+    }
        .navmenu .mainlinks{
-        color: #000;
+        color: #000;       
     }
        .dropdown {
         right: 100%;
