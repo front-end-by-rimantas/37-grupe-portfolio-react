@@ -197,11 +197,15 @@
 <!-- Testimonials start -->
 <section class="container">
     <div class="row slideCenter">
-        <div class="col-12 col-md-8 col-lg-6">
+        <div class="col-12 col-md-8 col-lg-6" id="testSlides">
             <div class="testimonials-slide">
-                <img src="./img/testimonials_avatars/avatar-3.png" class="testimonialsImg">
+                <div style="height: 100px;">
+                    <img src="./img/testimonials_avatars/avatar-3.png" class="testimonialsImg">
+                </div>
                 <h3 class="clientName">John Doe</h3>
-                <div class="clientPlace">Los Angeles, California</div>
+                <h5 class="clientPlace">
+                    Los Angeles, California
+                </h5>
                 <div class="stars">
                     <i class="fa fa-star" aria-hidden="true"></i>
                     <i class="fa fa-star" aria-hidden="true"></i>
@@ -209,13 +213,11 @@
                     <i class="fa fa-star" aria-hidden="true"></i>
                     <i class="fa fa-star-o" aria-hidden="true"></i>
                 </div>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur veritatis, at et illo ratione exercitationem. Hic vel dolorem temporibus itaque provident totam explicabo ab perspiciatis dolores, a earum doloribus voluptatibus?</p>
-                <div style="text-align:center">
-                    <span class="dot" onclick="currentSlide(1)"></span>
-                    <span class="dot" onclick="currentSlide(2)"></span>
-                    <span class="dot" onclick="currentSlide(3)"></span>
-                  </div>
-              </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur veritatis, at et illo ratione exercitationem. Hic vel dolorem temporibus itaque provident totam explicabo ab perspiciatis dolores, a earum doloribus voluptatibus?</p>
+                </div>
+                    <div id="dotSection" class="dotsPlace">
+                        <span class="dot" onclick="currentSlide(1)"></span>
+                    </div>
         </div>
     </div>
 </section>

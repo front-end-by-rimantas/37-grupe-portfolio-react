@@ -649,6 +649,7 @@
     align-items: center;
     justify-content: center;
     gap: 10px;
+    box-sizing: border-box;
 }
 .testimonialsImg{
     height: 100px;
@@ -676,6 +677,7 @@
     font-size: 18px;
 }
 .stars{
+    height: 18px;
     color: orange;
     font-size: 18px;
     animation-name: starsAppear;
@@ -691,7 +693,9 @@
     color: #444444;
     line-height: 22px;
 }
-
+.dotsPlace{
+    padding: 20px 10px;
+}
 
 /* Testimonials end */
 

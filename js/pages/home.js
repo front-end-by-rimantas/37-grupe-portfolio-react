@@ -28,6 +28,11 @@ work(workData);
 /* interface end */
 
 /* Testimonials start */
+import { testimonialsData } from '../data/testimonialsData.js';
+import { testimonials } from '../components/testimonials.js';
+
+testimonials ('#testSlides', testimonialsData)
+
 /* Testimonials end */
 
 /* purchase plans start */
