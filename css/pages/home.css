@@ -345,12 +345,12 @@
     }
   }
 .carousel-container {
-    width: 78%;
-    margin: 50px auto;
+    display: flex;
+    align-items: center;
     min-height: 200px;
     position: relative;
     overflow: hidden !important;
-    align-items: center;
+    margin: 0 15%;
 }
 .carousel-container .carousel-inner {
     max-width: 100%;
