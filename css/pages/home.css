@@ -374,14 +374,26 @@
     display: flex;
     flex-direction: column;
   }
-  .card .screenshot {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 2px;
-    object-fit: cover;
+  .screenshot {
+    height: 350px;
+    background-size: cover;
+    border-radius: 10px;
   }
-
+.screenshot1 {
+    background-image: url(/img/screenshot_1.jpg);
+}
+.screenshot2 {
+    background-image: url(/img/screenshot_2.jpg);
+}
+.screenshot3 {
+    background-image: url(/img/screenshot_3.jpg);
+}
+.screenshot4 {
+    background-image: url(/img/screenshot_4.jpg);
+}
+.screenshot5 {
+    background-image: url(/img/screenshot_5.jpg);
+}
 /* interface end */
 
 /* Testimonials start */
