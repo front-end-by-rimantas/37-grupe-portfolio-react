@@ -39,12 +39,11 @@ function testimonials (selector1, data) {
             ${starGenerator(item.rating)}
         </div>
             <p>${item.clientComment}</p>
-        </div>
-        <div id="dotSection" class="dotsPlace">
-        ${HTML3}
         </div>`;
     }
-   
+    HTML += `<div id="dotSection" class="dotsPlace">
+    ${HTML3}
+    </div>`;
  
     DOM.innerHTML = HTML;
 
