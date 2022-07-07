@@ -726,6 +726,19 @@
     align-items: center;
     justify-content: center;
 }
+#testSlides{
+    position: relative;
+    overflow: hidden;
+}
+.testimonials-slide{
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    box-sizing: border-box;
+} 
+
 .testimonials-slide{
     display: flex;
     flex-direction: column;
@@ -733,14 +746,29 @@
     justify-content: center;
     gap: 10px;
     box-sizing: border-box;
-}
+    animation-duration: 0.5s;
+    animation-name: slidein;
+  }
+  
+  @keyframes slidein {
+    0% {
+      margin-left: 100%;
+      width: 100%;
+    }
+  
+    100% {
+      margin-right: 100%;
+      width: 100%;
+    }
+  }
+
 .testimonialsImg{
+    display: inherit;
     height: 100px;
     width: 100px;
     border-radius: 50%;
     animation-name: appearAvatar;
-    animation-duration: 1s;
-    display: block !important;
+    animation-duration: 2s;
 }
 @keyframes appearAvatar {
     0%   {height: 10px;
@@ -764,7 +792,7 @@
     color: orange;
     font-size: 18px;
     animation-name: starsAppear;
-    animation-duration: 1s;
+    animation-duration: 2s;
 }
 @keyframes starsAppear {
     0%   {font-size: 2px}
