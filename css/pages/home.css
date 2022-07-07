@@ -862,6 +862,26 @@
 /* Appstore section end */
 
 /* Subscribe start */
+.sub-form {
+    display: block;
+}
+.sub-form > .row {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+}
+.sub-form .input-field::placeholder {
+    text-align: center;
+}
+.sub-form > .row form > .btn {
+    width: 100%;
+    margin-top: 15px;
+}
+.sub-form > .bg-img {
+    background-image: url(../../img/subscribe-bg.png);
+}
 /* Subscribe end */
 
 /* Stay tuned start */
