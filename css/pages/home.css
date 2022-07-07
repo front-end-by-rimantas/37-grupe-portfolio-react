@@ -862,6 +862,19 @@
 /* Appstore section end */
 
 /* Subscribe start */
+.sub-form {
+    display: block;
+}
+.sub-form > .row {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+}
+.sub-form > .row form > .btn {
+    width: 100%;
+}
 /* Subscribe end */
 
 /* Stay tuned start */
