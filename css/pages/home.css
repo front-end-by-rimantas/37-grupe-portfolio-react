@@ -872,7 +872,7 @@
     justify-content: center;
     text-align: center;
 }
-.input-field::placeholder {
+.sub-form .input-field::placeholder {
     text-align: center;
 }
 .sub-form > .row form > .btn {
