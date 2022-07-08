@@ -811,7 +811,7 @@
     flex: auto;
 }
 .accordion-block {
-    padding-top: 10px;
+    
 }
 .active, .accordion:hover {
     background-color: white;
