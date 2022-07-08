@@ -913,6 +913,72 @@
 /* Subscribe end */
 
 /* Stay tuned start */
+.subsc-bg{
+    background-color: #f6f9fe;
+}
+.stay-tuned-p{
+    width: 60%;
+}
+.subsHead{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.line-under {
+    border-color: #7C4FE0;
+    height: 2px;
+    width: 90px;
+    margin: 20px 0px 10px;
+    align-self: center;
+}
+.cust-tuned-form{
+    padding: 0 15px;
+}
+.message-field{
+    min-height: 60px;
+    min-width: 100%;
+}
+.stuned-contc-list{
+    list-style: none;
+}
+.stuned-contacts{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    align-items: center;
+    
+    text-decoration: none;
+    outline: none;
+    text-align: left;
+    padding: 5px 5px;
+}
+.stuned-icons{
+    padding: 20px;
+    background-color: #5F35DE;
+    font-weight: bold;
+    font-size: 24px;
+    border-radius: 3px;
+    color: #fff;
+}
+.cust-btn{
+    width: 100%;
+    padding: 18px 30px;
+    margin-top: 25px;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+}
+.cust-plane{
+    padding: 1px 5px;
+}
+@media (max-width: 768px){
+    .stay-tuned-p{
+        width: 100%;
+    }
+}
 /* Stay tuned end */
 
 /* Footer start */
