@@ -16,7 +16,7 @@
 /* header start */
 .head{
     padding: 0;
-    height: 100px;
+    height: 80px;
     width: 100%; 
     top: 0;
     left: 0;
@@ -42,7 +42,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 5px; 
+    padding: 0 40px; 
+    margin-top: 15px !important;
 }
 .bg {
     position: absolute;
@@ -79,12 +80,27 @@
     position: absolute; 
     display: none;
     border-radius: 4px;
-    top: 30px;
+    top: 40px;
     left: -5px;
 }
 .navmenu .mainlinks{
     text-decoration: none;
     color: #fff;
+}
+.droplist::after{
+    box-sizing: border-box;
+    border-top: 5px solid #d3d3d3;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 0;
+    content: "";
+    display: inline-block;
+    margin-left: 4px;
+    top: 2px;
+    left: 0;
+    width: 10px;
+    height: 10px;
+    position: relative;
 }
 .navmenu li{
     list-style: none;
@@ -97,11 +113,28 @@
     padding: 0.5em 1em;
     width: 12em;
 }
-.dropdown > .links-inside{
-    color: black;
+.links-inside{
     text-transform: uppercase;
-    font-weight: bold;
+    font-weight: bolder;
     font-size: 12px;
+    text-decoration: none;
+    color: #000;
+    text-transform: uppercase;
+}
+.dropdown::before{
+    box-sizing: border-box;
+    border-bottom: 9px solid #fff;
+    border-left: 9px solid transparent;
+    border-right: 9px solid transparent;
+    border-top: 0;
+    content: "";
+    display: inline-block;
+    margin-left: 4px;
+    top: -2em;
+    left: 6px;
+    width: 10px;
+    height: 10px;
+    position: relative;
 }
 .dropdown li:hover {
     background-color: lightgray;
@@ -949,7 +982,7 @@
     flex-direction: row;
     gap: 5px;
     align-items: center;
-    
+
     text-decoration: none;
     outline: none;
     text-align: left;
