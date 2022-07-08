@@ -964,7 +964,7 @@
     border-color: #7C4FE0;
     height: 2px;
     width: 90px;
-    margin: 20px 0px 10px;
+    margin: 0px 0px 10px;
     align-self: center;
 }
 .cust-tuned-form{
@@ -980,21 +980,29 @@
 .stuned-contacts{
     display: flex;
     flex-direction: row;
-    gap: 5px;
+    gap: 18px;
     align-items: center;
-
     text-decoration: none;
     outline: none;
     text-align: left;
+    font-size: 14px;
     padding: 5px 5px;
+    color: #565656;
+}
+.stuned-contacts:hover{
+    color: #5F35DE;
 }
 .stuned-icons{
-    padding: 20px;
+    min-width: 46px;
+    height: 46px;
     background-color: #5F35DE;
     font-weight: bold;
     font-size: 24px;
+    line-height: 24px;
     border-radius: 3px;
     color: #fff;
+    text-align: center;
+    padding-top: 11px;
 }
 .cust-btn{
     width: 100%;
