@@ -240,15 +240,18 @@
 /* hero start */
 
 .bg-img {
+    padding-top: 140px;
+    padding-bottom: 140px;
     background-image: url(../../img/blog-4.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    min-height: 100vh;
+    min-height: 100%;
+    position: relative;
     background: rgba(rgb(176, 43, 209, 0.3), green, blue, alpha);
 }
 .overlay {
-    position: relative;
+    /* position: relative; */
     z-index: 0;
 }
 .overlay::after {
@@ -265,10 +268,10 @@
 .bg-img::before {
     content: "";
     position: absolute;
-    bottom: 0;
+    bottom: -1px;
     left: 0;
     width: 100%;
-    height: 129px;
+    height: 20%;
     background: url(../../img/wave1.png);
     background-size: cover;
     background-repeat: no-repeat;
@@ -301,15 +304,16 @@
     padding: 15px 30px;
     border: none;
     border-radius: 30px;
-    font-size: 18px;
+    font-size: 16px;
+    font-weight: 600;
     letter-spacing: 1px;
     text-decoration: none;
     text-transform: uppercase;
-    transition: 0.9s;
     display: inline-block;
+    transition: all 0.4s ease 0s;
 }
 .container > .hero > .intro > .button:hover {
-    /* background-color: #5F35DE; */
+    color: #fff;
     background-image: linear-gradient(to right,#5F35DE, #911491);
 }
 .container > .hero > .contact-box {
@@ -333,6 +337,7 @@
     width: 100%;
     height: 50px;
     margin: 20px 0 10px 0;
+    cursor: pointer;
 }
 .container > .hero > .contact-box > .conditions-text {
     color: #444444;
@@ -351,14 +356,7 @@
         margin-bottom: 30px;
     }
 }
-@media (max-width: 768px) {
-    .container > .hero > .contact-box {
-        margin: 20px;
-    }
-    .bg-img::before {
-        height: 50px;
-}
-}
+
 
 /* hero end */
 
