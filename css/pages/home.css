@@ -889,7 +889,7 @@
 /* Appstore section start */
 .parallax-bg {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-weight: normal;
+    font-weight: normal; 
     text-align: center;
 }
 
@@ -903,17 +903,14 @@
     padding: 0;
 }
 .overplay {
-    background: rgba(16, 16, 45, 1);
+    background: rgba(10, 10, 50, 1);
     overflow: hidden;
     height: 500px;
     width: 100%;
-    opacity: 0.8;
+    opacity: 0.7;
     padding: 0;
     color: #fff;
 }
-
-
-
 /* Appstore section end */
 
 /* Subscribe start */
