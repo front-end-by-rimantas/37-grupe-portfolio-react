@@ -303,6 +303,7 @@
     width: 100%;
     height: 50px;
     margin: 20px 0 10px 0;
+    cursor: pointer;
 }
 .container > .hero > .contact-box > .conditions-text {
     color: #444444;
