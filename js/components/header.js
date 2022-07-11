@@ -10,7 +10,7 @@ function scrollFunction() {
         nodes[i].style.color = "#0006";
         
       }
-  } else {
+  } else if(window.innerWidth > 786){
     document.getElementById("header").className = "container head head-fixed";
     document.getElementById("headcol").className = "col-12 col-xxl-12 navmenu";
     document.getElementById("logo").src = "./img/header-logo-white.png";
