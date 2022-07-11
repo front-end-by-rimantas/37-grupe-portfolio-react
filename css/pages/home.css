@@ -213,12 +213,12 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    min-height: 100vh;
+    min-height: 100%;
     position: relative;
     background: rgba(rgb(176, 43, 209, 0.3), green, blue, alpha);
 }
 .overlay {
-    position: relative;
+    /* position: relative; */
     z-index: 0;
 }
 .overlay::after {
@@ -238,7 +238,7 @@
     bottom: -1px;
     left: 0;
     width: 100%;
-    height: 132px;
+    height: 20%;
     background: url(../../img/wave1.png);
     background-size: cover;
     background-repeat: no-repeat;
