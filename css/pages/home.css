@@ -887,6 +887,33 @@
 /* Team experts end */
 
 /* Appstore section start */
+.parallax-bg {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: normal;
+    text-align: center;
+}
+
+.parallax {
+    background-image: url(../../img/parallax-bg.jpg);
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0;
+}
+.overplay {
+    background: rgba(16, 16, 45, 1);
+    overflow: hidden;
+    height: 500px;
+    width: 100%;
+    opacity: 0.8;
+    padding: 0;
+    color: #fff;
+}
+
+
+
 /* Appstore section end */
 
 /* Subscribe start */
