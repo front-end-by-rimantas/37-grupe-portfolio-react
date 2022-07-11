@@ -11,7 +11,6 @@ function features(selector, data){
     if (!DOM){
         return console.error('Nerastas elementas i kuri reikia sugeneruoti nauja turini');
     }
-    console.log(DOM);
 
     let HTML = '';
 
