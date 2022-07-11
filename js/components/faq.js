@@ -11,7 +11,6 @@ function faq(selector, data){
     if (!DOM){
         return console.error('Nerastas elementas i kuri reikia sugeneruoti nauja turini');
     }
-    console.log(DOM);
 
     let HTML = '';
 
@@ -21,7 +20,6 @@ function faq(selector, data){
             continue;
         }
 
-        console.log(item);
         HTML += `<div class="col-12 col-md-6">
         <button class="accordion">${item.title}</button>
         <div class="panel">
