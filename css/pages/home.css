@@ -275,11 +275,12 @@
     letter-spacing: 1px;
     text-decoration: none;
     text-transform: uppercase;
-    transition: 0.9s;
     display: inline-block;
+    transition: all 0.4s;
 }
 .container > .hero > .intro > .button:hover {
-    /* background-color: #5F35DE; */
+    color: #fff;
+    transition: all 0.4s;
     background-image: linear-gradient(to right,#5F35DE, #911491);
 }
 .container > .hero > .contact-box {
