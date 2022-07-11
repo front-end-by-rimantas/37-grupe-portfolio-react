@@ -972,7 +972,9 @@
 }
 .message-field{
     min-height: 60px;
-    min-width: 100%;
+    width: 100%;
+    overflow: auto;
+    resize: vertical;
 }
 .stuned-contc-list{
     list-style: none;
