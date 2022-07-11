@@ -207,11 +207,14 @@
 /* hero start */
 
 .bg-img {
+    padding-top: 140px;
+    padding-bottom: 140px;
     background-image: url(../../img/blog-4.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     min-height: 100vh;
+    position: relative;
     background: rgba(rgb(176, 43, 209, 0.3), green, blue, alpha);
 }
 .overlay {
@@ -235,7 +238,7 @@
     bottom: 0;
     left: 0;
     width: 100%;
-    height: 129px;
+    height: 132px;
     background: url(../../img/wave1.png);
     background-size: cover;
     background-repeat: no-repeat;
@@ -318,14 +321,7 @@
         margin-bottom: 30px;
     }
 }
-@media (max-width: 768px) {
-    .container > .hero > .contact-box {
-        margin: 20px;
-    }
-    .bg-img::before {
-        height: 50px;
-}
-}
+
 
 /* hero end */
 
