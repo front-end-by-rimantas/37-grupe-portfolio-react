@@ -271,16 +271,16 @@
     padding: 15px 30px;
     border: none;
     border-radius: 30px;
-    font-size: 18px;
+    font-size: 16px;
+    font-weight: 600;
     letter-spacing: 1px;
     text-decoration: none;
     text-transform: uppercase;
     display: inline-block;
-    transition: all 0.4s;
+    transition: all 0.4s ease 0s;
 }
 .container > .hero > .intro > .button:hover {
     color: #fff;
-    transition: all 0.4s;
     background-image: linear-gradient(to right,#5F35DE, #911491);
 }
 .container > .hero > .contact-box {
