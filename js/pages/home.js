@@ -77,3 +77,15 @@ for (let i = 0; i < acc.length; i++) {
 
 /* Footer start */
 /* Footer end */
+
+/* Scroll to top button start */
+const btnScrollToTop = document.querySelector("#btnScrollToTop");
+
+btnScrollToTop.addEventListener("click", function() {
+  window.scrollTo({
+  top:0,
+  left:0,
+  behavior:'smooth'
+})
+});
+/* Scroll to top button end */
