@@ -11,7 +11,6 @@ function features(selector, data){
     if (!DOM){
         return console.error('Nerastas elementas i kuri reikia sugeneruoti nauja turini');
     }
-    console.log(DOM);
 
     let HTML = '';
 
@@ -21,7 +20,6 @@ function features(selector, data){
             continue;
         }
 
-        console.log(item);
         HTML += `<div class="col-12 col-md-6 col-lg-4 futures">
                 <img class="featureimage" src="./img/${item.icon}" alt="image">
                 <h3 class="title">${item.title}</h3>

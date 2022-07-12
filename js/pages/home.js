@@ -39,6 +39,28 @@ testimonials ('#testSlides', testimonialsData)
 /* purchase plans end */
 
 /* FAQ start */
+import { faq } from '../components/faq.js';
+import {faqData} from '../data/faqData.js';
+
+faq('#faq_block', faqData);
+
+const acc = document.getElementsByClassName("accordion");
+
+for (let i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    /* Toggle between adding and removing the "active" class,
+    to highlight the button that controls the panel */
+    this.classList.toggle("active");
+
+    /* Toggle between hiding and showing the active panel */
+    const panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+}
 /* FAQ end */
 
 /* Team experts start */
@@ -55,3 +77,15 @@ testimonials ('#testSlides', testimonialsData)
 
 /* Footer start */
 /* Footer end */
+
+/* Scroll to top button start */
+const btnScrollToTop = document.querySelector("#btnScrollToTop");
+
+btnScrollToTop.addEventListener("click", function() {
+  window.scrollTo({
+  top:0,
+  left:0,
+  behavior:'smooth'
+})
+});
+/* Scroll to top button end */
