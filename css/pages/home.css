@@ -42,7 +42,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 40px; 
+    padding: 0 30px; 
     margin-top: 15px !important;
 }
 .bg {
@@ -59,7 +59,7 @@
 .menu{
     display: flex;
     gap: 1em;
-    font-size: 16px; 
+    font-size: 14px; 
     position: relative;
 }
 .burgerCheck{
@@ -95,8 +95,7 @@
     border-bottom: 0;
     content: "";
     display: inline-block;
-    margin-left: 4px;
-    top: 2px;
+    top: 4px;
     left: 0;
     width: 10px;
     height: 10px;
@@ -104,7 +103,7 @@
 }
 .navmenu li{
     list-style: none;
-    padding: 5px 14px;
+    padding: 5px 12px;
 }
 .dropdown li + li {
     margin-top: 1px;
@@ -145,7 +144,7 @@
 }
 
 
-@media (max-width: 786px){
+@media (max-width: 975px){
     .menu { 
         display:none;
         position: absolute;
@@ -155,15 +154,29 @@
         top: 0;
         right: 0;
         text-align: left;
-        padding: 40px;
+        padding-top: 25px;
        }
        .menu > li {
         padding: 20px;
         border-bottom: 2px solid lightgray;
        }
-       .menu > .droplist:hover {
+       .menu > .droplist:hover::after {
         display: none;
        }
+       .menu > .droplist:hover .dropdown{
+        display:block;
+        width: 100%;
+        position: relative;
+        border-radius: 0;
+        top: 0;
+        left: -20px;
+       }
+       .dropdown li:hover {
+        background-color: #fff;
+    }
+       .dropdown li:hover a{
+        color: grey;
+    }
        .menu > .droplist > li {
         margin-top: 12px;
        }
@@ -203,35 +216,56 @@
         .hamb-line::after{
             top: -10px;
         }
+        .hamb-line-dark {
+        background: grey;
+        display: block;
+        height: 2px;
+        position: relative;
+        width: 30px;
+        } 
+        .hamb-line-dark::before,
+        .hamb-line-dark::after{
+            background: grey;
+            content: '';
+            display: block;
+            height: 100%;
+            position: absolute;
+            transition: all .2s ease-out;
+            width: 100%;
+        }
+        .hamb-line-dark::before{
+            top: 10px;
+        }
+        .hamb-line-dark::after{
+            top: -10px;
+        }
         .burgerCheck:checked ~ .hamburger .hamb-line {
             background: transparent;
             width: 15px;
         }
         .burgerCheck:checked ~ .hamburger .hamb-line::before {
             transform: rotate(-45deg);
-            top: -30px;
-            right: 10px;
+            top: -25px;
+            right: 20px;
             background: gray;
             z-index: 54;
         }
         .burgerCheck:checked ~ .hamburger .hamb-line::after {
             transform: rotate(45deg);
-            top: -30px;
-            right: 10px;
+            top: -25px;
+            right: 20px;
             background: gray;
             z-index: 55;
         }
         .navmenu .mainlinks{
             color: gray;       
         }
-        .dropdown {
-            display: none;
-            right: 100%;
-            top: 15px;
-            transform: translateX(50%);
+        .navmenu{
+            padding: 0;
+            margin-top: 0 !important;
         }
-        .dropdown > li:hover {
-            background-color: #4c9e9e;
+        .dropdown::before{
+            display: none;
         }
 } 
 
