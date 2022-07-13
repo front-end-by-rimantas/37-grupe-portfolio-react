@@ -1176,7 +1176,20 @@
     transform: translateY(-150%);
     transition: all 0.3s ease;
 }
-
+.footer-line{
+    border: 1px solid transparent;
+    width: 100%;
+    background-color: #565656;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+.footer-underline{
+    margin-top: 5px;
+    color: #565656;
+    padding: 5px;
+    display: inline;
+    line-height: 16px;
+}
 /* Footer end */
 
 /* Scroll to top button start */
