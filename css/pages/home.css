@@ -1049,7 +1049,9 @@
 /* Appstore section end */
 
 /* Subscribe start */
-
+.sub-form{
+    background-color: #fff;
+}
 .sub-form > .row {
     display: flex;
     align-items: center;
@@ -1073,6 +1075,8 @@
 /* Stay tuned start */
 .subsc-bg{
     background-color: #f6f9fe;
+    z-index: 1;
+    position: relative;
 }
 .stay-tuned-p{
     width: 60%;
@@ -1150,6 +1154,99 @@
 /* Stay tuned end */
 
 /* Footer start */
+.emulate{
+    height: 500px;
+    float: left;
+}
+.footer-sec{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    overflow: hidden;
+}
+.footer-cols{
+    display: inline-block;
+    /* flex-direction: row;
+    justify-content:space-between; */
+}
+.foo-col{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.foo-col > .footer-h3{
+    font-size: 24px;
+    padding-bottom: 5px;
+}
+.foo-col p,a{
+    text-decoration: none;
+    color: #565656;
+}
+.foo-app-img{
+    max-width: 170px;
+    padding-top: 7px;
+}
+.footer-socials{
+    width: 50px;
+    height: 50px;
+    padding: 15px;
+    margin-left: 5px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+}
+.foo-fb{
+    background-color: #3b5999;
+}
+.foo-tw{
+    background-color: #55acee;
+}
+.foo-gpl{
+    background-color: #dd4b39;
+}
+.foo-vine{
+    background-color: #00b489;
+}
+.soc-visi,
+.soc-invi {
+    color: #fff;
+    font-size: 18px;
+}
+.footer-socials .soc-invi {
+    transform: translateY(200%);
+    transition: all 0.3s ease;
+}
+.footer-socials .soc-visi {
+    transform: translateY(0);
+    transition: all 0.3s ease;
+}
+.footer-socials:hover .soc-visi{
+    transform: translateY(-200%);
+    transition: all 0.3s ease;
+}
+.footer-socials:hover .soc-invi{
+    transform: translateY(-150%);
+    transition: all 0.3s ease;
+}
+.footer-line{
+    border: 1px solid transparent;
+    width: 100%;
+    background-color: #565656;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+.footer-underline{
+    margin-top: 5px;
+    color: #565656;
+    padding: 5px;
+    display: inline;
+    line-height: 16px;
+}
 /* Footer end */
 
 /* Scroll to top button start */
